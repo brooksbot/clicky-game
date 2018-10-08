@@ -47,7 +47,7 @@ class App extends Component {
             this.setState({ matches });
 
             // Otherwise, if clicked = false, and the user hasn't finished
-        } else if (correctGuesses < 11) {
+        } else if (correctGuesses < 14) {
 
             // Set its value to true
             clickedMatch[0].clicked = true;
@@ -79,7 +79,7 @@ class App extends Component {
 
             // Play again message
             clickMessage = "Well done! Want to try again?";
-            bestScore = 12;
+            bestScore = 15;
             this.setState({ bestScore });
 
             for (let i = 0; i < matches.length; i++) {
