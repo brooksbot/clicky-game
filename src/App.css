@@ -1,4 +1,18 @@
-.App {
+.title {
+  width: 100%;
+  text-align: center;
+  margin-bottom: 0px;
+}
+
+.scoreSummary{
+  width: 100%;
+  text-align: center;
+  margin-bottom: 20px;	
+}
+
+
+
+/* .App {
   text-align: center;
 }
 
@@ -29,4 +43,4 @@
   to {
     transform: rotate(360deg);
   }
-}
+} */
